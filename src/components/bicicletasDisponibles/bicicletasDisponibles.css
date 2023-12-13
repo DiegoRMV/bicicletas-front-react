@@ -1,0 +1,29 @@
+.bic-disp-container {
+    width: 200px;
+    height: 200px;
+    background-color: #555555;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.bici-disp-button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6vh;
+    background-color: #aaaaaa;
+    color: #000000;
+    transition: all 0.2seg;
+    border: none;
+}
+
+.bici-disp-button:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
